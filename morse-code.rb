@@ -25,5 +25,5 @@ def decode(code)
   code.split('   ').map { |word| decode_word(word) }.join(' ')
 end
 
-puts decode("-- -.--   -. .- -- .")
-puts decode(".-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...")
+puts decode('-- -.--   -. .- -- .')
+puts decode('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
