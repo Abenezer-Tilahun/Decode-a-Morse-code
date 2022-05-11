@@ -2,6 +2,24 @@
 
 > This is a Ruby project that decodes morse code into words/ sentences
 
+# Built With
+
+- Ruby
+- VSCode
+- Rubocop
+
+To get a local copy up and running follow these simple example steps.
+
+# Getting Started
+
+#### Cloning the project
+
+```
+git clone  https://github.com/Abenezer-Tilahun/Decode-a-Morse-code.git <Your-Build-Directory>
+```
+cd Decode-a-Morse-code.git
+
+Run morse_code.rb on your terminal By Using IRB
 
 ## Authors
 
