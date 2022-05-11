@@ -5,7 +5,7 @@ def decode_char(character)
     '--.' => 'G', '....' => 'H', '..' => 'I',
     '.---' => 'J', '-.-' => 'K', '.-..' => 'L',
     '--' => 'M', '-.' => 'N', '---' => 'O', 
-    '.--.' => 'p', '--.-' => 'Q', '-.-' => 'R',
+    '.--.' => 'P', '--.-' => 'Q', '-.-' => 'R',
     '...' => 'S', '-' => 'T', '..-' => 'U', '...-' => 'V',
     '.--' => 'W', '-..-' => 'U', '-.--' => 'Y', '--..' => 'Z'
   }
@@ -15,3 +15,12 @@ def decode_char(character)
 end
 
 puts decode_char('.-')
+
+def decode_word(word)
+  letters=word.split
+  decoded=''
+  letters.each {|letter| decoded += decode_char(letter)}
+  decoded+=' '
+end
+
+puts decode_word('.--- .--.')
